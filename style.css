@@ -1,0 +1,90 @@
+.logo-img img{
+    width:300px;
+    height: 100%;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+.banner-section{
+    margin-top: 25px;
+}
+.banner-text h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.banner-text-color{
+    color: #FABE4C;
+}
+.banner-img{
+    text-align: center;
+    background-image: url(./icons/green.png);
+    background-repeat: no-repeat;
+    background-size: 380px;
+    background-position: bottom center;
+}
+.banner-img img{
+    max-width: 100%;
+    height: 480px;
+}
+.brand-btn{
+    background-color: #A0B940;
+}
+.jacket-section .card{
+    border: none;
+}
+.jacket-section .card-img-top{
+    height: 65%;
+    width: 90%;
+    margin: 0 auto;
+    padding:25px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 10px;
+}
+.price-color{
+    color: #FABE4C;
+}
+.seller-section img{
+    width: 50%;
+}
+.seller-section .card{
+    border: none;
+}
+.socal-icon a{
+    text-decoration: none;
+    color: tomato;
+}
+.socal-icon i{
+    padding: 10px 25px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767.98px) {
+    .seller-section .card{
+        text-align: center;
+    }
+    .seller-section .card h4{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .seller-section img{
+        width: 30%;
+    }
+    .seller-top{
+        order: 2;
+        padding-top: 20px;
+    }
+    .seller-img{
+        order: 1;
+    }
+}
